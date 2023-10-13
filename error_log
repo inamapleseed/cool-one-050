@@ -1,0 +1,1501 @@
+[15-Jun-2021 15:14:28 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Password not accepted from server! in /home/coolones/public_html/system/library/mail.php:304
+Stack trace:
+#0 /home/coolones/public_html/catalog/model/tool/pro_email.php(1097): Mail->send()
+#1 /home/coolones/public_html/system/storage/modification/system/engine/loader.php(184): ModelToolProEmail->generate(Array)
+#2 /home/coolones/public_html/system/engine/proxy.php(25): Loader->{closure}(Array, Array)
+#3 /home/coolones/public_html/catalog/controller/extension/module/contactus.php(93): Proxy->__call('generate', Array)
+#4 /home/coolones/public_html/system/storage/modification/system/engine/action.php(51): ControllerExtensionModuleContactus->index(Array)
+#5 /home/coolones/public_html/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#6 /home/coolones/public_html/catalog/controller/common/content_bottom.php(62): Loader->controller('extension/modul...')
+#7 /home/coolones/public_html/system/storage/modification/system/engine/action.php(51):  in /home/coolones/public_html/system/library/mail.php on line 304
+[18-Jun-2021 23:59:01 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[18-Jun-2021 23:59:01 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:00:02 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:00:02 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:01:02 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:01:02 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:02:01 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:02:01 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:03:02 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:03:02 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:04:01 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:04:01 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:04:53 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:04:53 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:05:02 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:05:02 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:06:01 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[19-Jun-2021 00:06:01 Asi[21-Jun-2021 14:41:46 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[21-Jun-2021 14:41:46 Asia/Singapore] PHP Warning:  fread(): Length parameter must be greater than 0 in /home/coolones/public_html/system/library/cache/file.php on line 32
+[13-Aug-2021 13:57:21 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[13-Aug-2021 13:57:21 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[13-Aug-2021 13:57:21 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[13-Aug-2021 13:57:21 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[16-Aug-2021 15:45:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[16-Aug-2021 15:45:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[16-Aug-2021 15:45:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[16-Aug-2021 15:45:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Aug-2021 11:44:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[17-Aug-2021 11:44:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Aug-2021 11:44:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Aug-2021 11:44:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-Aug-2021 10:26:04 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[18-Aug-2021 10:26:04 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-Aug-2021 10:26:04 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-Aug-2021 10:26:04 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-Aug-2021 14:45:24 Asia/Singapore] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[18-Aug-2021 14:45:24 Asia/Singapore] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=2203 in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[18-Aug-2021 14:45:24 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[18-Aug-2021 14:45:24 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-Aug-2021 14:45:24 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-Aug-2021 14:45:24 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[19-Aug-2021 09:53:37 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[19-Aug-2021 09:53:37 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[19-Aug-2021 09:53:37 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[19-Aug-2021 09:53:37 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[19-Aug-2021 09:54:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[19-Aug-2021 09:54:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[19-Aug-2021 09:54:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[19-Aug-2021 09:54:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[20-Aug-2021 09:45:22 Asia/Singapore] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[20-Aug-2021 09:45:22 Asia/Singapore] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=9116 in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[20-Aug-2021 09:45:22 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[20-Aug-2021 09:45:22 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[20-Aug-2021 09:45:22 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[20-Aug-2021 09:45:22 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[20-Aug-2021 13:17:09 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[20-Aug-2021 13:17:09 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[20-Aug-2021 13:17:09 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[20-Aug-2021 13:17:09 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[23-Aug-2021 09:15:07 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[23-Aug-2021 09:15:07 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[23-Aug-2021 09:15:07 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[23-Aug-2021 09:15:07 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[23-Aug-2021 12:33:05 Asia/Singapore] PHP Warning:  mysqli::query(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[23-Aug-2021 12:33:05 Asia/Singapore] PHP Warning:  mysqli::query(): Error reading result set's header in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[23-Aug-2021 12:33:05 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM `coolone_setting` WHERE store_id = '0' OR store_id = '0' ORDER BY store_id ASC in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM `...', Array)
+#1 /home/coolones/public_html/catalog/controller/startup/startup.php(31): DB->query('SELECT * FROM `...')
+#2 /home/coolones/public_html/system/storage/modification/system/engine/action.php(51): ControllerStartupStartup->index()
+#3 /home/coolones/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/coolones/public_html/system/engine/front.php(19): Front->execute(Object(Action))
+#5 /home/coolones/public_html/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#7 /home/coolones/public_html/index.php(22): start('catalog')
+#8 {ma in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[23-Aug-2021 14:20:09 Asia/Singapore] PHP Warning:  mysqli::query(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[23-Aug-2021 14:20:10 Asia/Singapore] PHP Warning:  mysqli::query(): Error reading result set's header in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[23-Aug-2021 14:20:10 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: MySQL server has gone away<br />Error No: 2006<br />SELECT tr1.tax_class_id, tr2.tax_rate_id, tr2.name, tr2.rate, tr2.type, tr1.priority FROM coolone_tax_rule tr1 LEFT JOIN coolone_tax_rate tr2 ON (tr1.tax_rate_id = tr2.tax_rate_id) INNER JOIN coolone_tax_rate_to_customer_group tr2cg ON (tr2.tax_rate_id = tr2cg.tax_rate_id) LEFT JOIN coolone_zone_to_geo_zone z2gz ON (tr2.geo_zone_id = z2gz.geo_zone_id) LEFT JOIN coolone_geo_zone gz ON (tr2.geo_zone_id = gz.geo_zone_id) WHERE tr1.based = 'shipping' AND tr2cg.customer_group_id = '1' AND z2gz.country_id = '188' AND (z2gz.zone_id = '0' OR z2gz.zone_id = '0') ORDER BY tr1.priority ASC in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('SELECT tr1.tax_...', Array)
+#1 /home/coolones/public_html/system/library/cart/tax.php(17): DB->query('SELECT tr1.tax_...')
+#2 /home/coolones/public_html/catalog/controller/startup/startup.php(173): Cart\Tax->s in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[23-Aug-2021 15:44:15 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[23-Aug-2021 15:44:15 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[23-Aug-2021 15:44:15 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[23-Aug-2021 15:44:15 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[24-Aug-2021 09:21:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[24-Aug-2021 09:21:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[24-Aug-2021 09:21:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[24-Aug-2021 09:21:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[24-Aug-2021 12:37:06 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[24-Aug-2021 12:37:06 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[24-Aug-2021 12:37:06 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[24-Aug-2021 12:37:06 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[24-Aug-2021 14:34:15 Asia/Singapore] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[24-Aug-2021 14:34:15 Asia/Singapore] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=24793 in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[24-Aug-2021 14:34:15 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[24-Aug-2021 14:34:15 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[24-Aug-2021 14:34:15 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[24-Aug-2021 14:34:15 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Aug-2021 09:51:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[25-Aug-2021 09:51:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Aug-2021 09:51:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Aug-2021 09:51:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Aug-2021 10:38:04 Asia/Singapore] PHP Warning:  mysqli::query(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[25-Aug-2021 10:38:04 Asia/Singapore] PHP Warning:  mysqli::query(): Error reading result set's header in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[25-Aug-2021 10:38:04 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: MySQL server has gone away<br />Error No: 2006<br />SELECT tr1.tax_class_id, tr2.tax_rate_id, tr2.name, tr2.rate, tr2.type, tr1.priority FROM coolone_tax_rule tr1 LEFT JOIN coolone_tax_rate tr2 ON (tr1.tax_rate_id = tr2.tax_rate_id) INNER JOIN coolone_tax_rate_to_customer_group tr2cg ON (tr2.tax_rate_id = tr2cg.tax_rate_id) LEFT JOIN coolone_zone_to_geo_zone z2gz ON (tr2.geo_zone_id = z2gz.geo_zone_id) LEFT JOIN coolone_geo_zone gz ON (tr2.geo_zone_id = gz.geo_zone_id) WHERE tr1.based = 'shipping' AND tr2cg.customer_group_id = '1' AND z2gz.country_id = '188' AND (z2gz.zone_id = '0' OR z2gz.zone_id = '0') ORDER BY tr1.priority ASC in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('SELECT tr1.tax_...', Array)
+#1 /home/coolones/public_html/system/library/cart/tax.php(17): DB->query('SELECT tr1.tax_...')
+#2 /home/coolones/public_html/catalog/controller/startup/startup.php(173): Cart\Tax->s in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[25-Aug-2021 12:02:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[25-Aug-2021 12:02:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Aug-2021 12:02:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Aug-2021 12:02:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Aug-2021 17:20:05 Asia/Singapore] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[25-Aug-2021 17:20:05 Asia/Singapore] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=4294 in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[25-Aug-2021 17:20:05 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[25-Aug-2021 17:20:05 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Aug-2021 17:20:05 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Aug-2021 17:20:05 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Aug-2021 21:01:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[25-Aug-2021 21:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Aug-2021 21:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Aug-2021 21:01:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 08:46:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[26-Aug-2021 08:46:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 08:46:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 08:46:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 10:49:07 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[26-Aug-2021 10:49:08 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 10:49:08 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 10:49:08 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 12:01:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[26-Aug-2021 12:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 12:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 12:01:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 12:49:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[26-Aug-2021 12:49:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 12:49:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 12:49:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 14:26:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[26-Aug-2021 14:26:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 14:26:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 14:26:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 15:09:05 Asia/Singapore] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[26-Aug-2021 15:09:05 Asia/Singapore] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=6824 in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[26-Aug-2021 15:09:05 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[26-Aug-2021 15:09:05 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 15:09:05 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 15:09:05 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Aug-2021 17:52:08 Asia/Singapore] PHP Warning:  mysqli::query(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[26-Aug-2021 17:52:08 Asia/Singapore] PHP Warning:  mysqli::query(): Error reading result set's header in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[26-Aug-2021 17:52:08 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM coolone_weight_class wc LEFT JOIN coolone_weight_class_description wcd ON (wc.weight_class_id = wcd.weight_class_id) WHERE wcd.language_id = '1' in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM c...', Array)
+#1 /home/coolones/public_html/system/library/cart/weight.php(10): DB->query('SELECT * FROM c...')
+#2 /home/coolones/public_html/catalog/controller/startup/startup.php(185): Cart\Weight->__construct(Object(Registry))
+#3 /home/coolones/public_html/system/storage/modification/system/engine/action.php(51): ControllerStartupStartup->index()
+#4 /home/coolones/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/coolones/public_html/system/engine/front.php(19): Front->execute(Object(Action))
+#6 /home/coolones/public_html/system/framework.php(103): Front->dispatch(Object(Action) in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[27-Aug-2021 09:31:04 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Aug-2021 09:31:04 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Aug-2021 09:31:04 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Aug-2021 09:31:04 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Aug-2021 10:47:20 Asia/Singapore] PHP Warning:  mysqli::query(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[27-Aug-2021 10:47:20 Asia/Singapore] PHP Warning:  mysqli::query(): Error reading result set's header in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[27-Aug-2021 10:47:20 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: MySQL server has gone away<br />Error No: 2006<br />SELECT tr1.tax_class_id, tr2.tax_rate_id, tr2.name, tr2.rate, tr2.type, tr1.priority FROM coolone_tax_rule tr1 LEFT JOIN coolone_tax_rate tr2 ON (tr1.tax_rate_id = tr2.tax_rate_id) INNER JOIN coolone_tax_rate_to_customer_group tr2cg ON (tr2.tax_rate_id = tr2cg.tax_rate_id) LEFT JOIN coolone_zone_to_geo_zone z2gz ON (tr2.geo_zone_id = z2gz.geo_zone_id) LEFT JOIN coolone_geo_zone gz ON (tr2.geo_zone_id = gz.geo_zone_id) WHERE tr1.based = 'shipping' AND tr2cg.customer_group_id = '1' AND z2gz.country_id = '188' AND (z2gz.zone_id = '0' OR z2gz.zone_id = '0') ORDER BY tr1.priority ASC in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('SELECT tr1.tax_...', Array)
+#1 /home/coolones/public_html/system/library/cart/tax.php(17): DB->query('SELECT tr1.tax_...')
+#2 /home/coolones/public_html/catalog/controller/startup/startup.php(173): Cart\Tax->s in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[27-Aug-2021 14:18:26 Asia/Singapore] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Aug-2021 14:18:26 Asia/Singapore] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=9125 in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Aug-2021 14:18:26 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Aug-2021 14:18:26 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Aug-2021 14:18:26 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Aug-2021 14:18:26 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Aug-2021 16:17:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Aug-2021 16:17:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Aug-2021 16:17:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Aug-2021 16:17:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Aug-2021 17:09:51 Asia/Singapore] PHP Warning:  mysqli::query(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[27-Aug-2021 17:09:51 Asia/Singapore] PHP Warning:  mysqli::query(): Error reading result set's header in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[27-Aug-2021 17:09:51 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: MySQL server has gone away<br />Error No: 2006<br />DELETE FROM coolone_cart WHERE (api_id > '0' OR customer_id = '0') AND date_added < DATE_SUB(NOW(), INTERVAL 4 HOUR) in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('DELETE FROM coo...', Array)
+#1 /home/coolones/public_html/system/library/cart/cart.php(29): DB->query('DELETE FROM coo...')
+#2 /home/coolones/public_html/catalog/controller/startup/startup.php(191): Cart\Cart->__construct(Object(Registry))
+#3 /home/coolones/public_html/system/storage/modification/system/engine/action.php(51): ControllerStartupStartup->index()
+#4 /home/coolones/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/coolones/public_html/system/engine/front.php(19): Front->execute(Object(Action))
+#6 /home/coolones/public_html/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#7 /home/coolones/public_htm in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[27-Aug-2021 17:10:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Aug-2021 17:10:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Aug-2021 17:10:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Aug-2021 17:10:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Aug-2021 21:01:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Aug-2021 21:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Aug-2021 21:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Aug-2021 21:01:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[29-Aug-2021 00:01:09 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[29-Aug-2021 00:01:09 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[29-Aug-2021 00:01:09 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[29-Aug-2021 00:01:09 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[29-Aug-2021 14:52:07 Asia/Singapore] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[29-Aug-2021 14:52:07 Asia/Singapore] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=2075 in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[29-Aug-2021 14:52:07 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[29-Aug-2021 14:52:07 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[29-Aug-2021 14:52:07 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[29-Aug-2021 14:52:07 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 00:47:08 Asia/Singapore] PHP Warning:  mysqli::query(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[30-Aug-2021 00:47:08 Asia/Singapore] PHP Warning:  mysqli::query(): Error reading result set's header in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[30-Aug-2021 00:47:08 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM `coolone_setting` WHERE store_id = '0' OR store_id = '0' ORDER BY store_id ASC in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM `...', Array)
+#1 /home/coolones/public_html/catalog/controller/startup/startup.php(31): DB->query('SELECT * FROM `...')
+#2 /home/coolones/public_html/system/storage/modification/system/engine/action.php(51): ControllerStartupStartup->index()
+#3 /home/coolones/public_html/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/coolones/public_html/system/engine/front.php(19): Front->execute(Object(Action))
+#5 /home/coolones/public_html/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#7 /home/coolones/public_html/index.php(22): start('catalog')
+#8 {ma in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[30-Aug-2021 00:55:09 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Resource temporarily unavailable in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[30-Aug-2021 00:55:09 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 00:55:09 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 00:55:09 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 01:18:10 Asia/Singapore] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[30-Aug-2021 01:18:10 Asia/Singapore] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=17938 in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[30-Aug-2021 01:18:10 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[30-Aug-2021 01:18:10 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 01:18:10 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 01:18:10 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 02:53:46 Asia/Singapore] PHP Warning:  mysqli::query(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[30-Aug-2021 02:53:46 Asia/Singapore] PHP Warning:  mysqli::query(): Error reading result set's header in /home/coolones/public_html/system/library/db/mysqli.php on line 18
+[30-Aug-2021 02:53:46 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM coolone_extension WHERE `type` = 'openbay' in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM c...', Array)
+#1 /home/coolones/public_html/system/library/openbay.php(117): DB->query('SELECT * FROM c...')
+#2 /home/coolones/public_html/system/library/openbay.php(10): Openbay->getInstalled()
+#3 /home/coolones/public_html/system/storage/modification/system/engine/loader.php(116): Openbay->__construct(Object(Registry))
+#4 /home/coolones/public_html/system/framework.php(81): Loader->library('openbay')
+#5 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#6 /home/coolones/public_html/index.php(22): start('catalog')
+#7 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[30-Aug-2021 02:54:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[30-Aug-2021 02:54:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 02:54:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 02:54:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 08:45:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[30-Aug-2021 08:45:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 08:45:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 08:45:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:46:21 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[30-Aug-2021 09:46:22 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:46:22 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:46:22 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:47:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[30-Aug-2021 09:47:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:47:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:47:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:57:05 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[30-Aug-2021 09:57:05 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:57:05 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:57:05 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:57:15 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[30-Aug-2021 09:57:15 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:57:15 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:57:15 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:57:15 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[30-Aug-2021 09:57:15 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:57:15 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:57:15 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:57:15 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[30-Aug-2021 09:57:15 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:57:15 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:57:15 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:57:16 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[30-Aug-2021 09:57:16 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:57:16 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2021 09:57:16 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[07-Oct-2021 11:38:05 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[07-Oct-2021 11:38:05 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[07-Oct-2021 11:38:05 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[07-Oct-2021 11:38:05 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[11-Oct-2021 12:01:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[11-Oct-2021 12:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[11-Oct-2021 12:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[11-Oct-2021 12:01:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-Oct-2021 12:01:08 Asia/Singapore] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[18-Oct-2021 12:01:08 Asia/Singapore] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=30734 in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[18-Oct-2021 12:01:08 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[18-Oct-2021 12:01:08 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-Oct-2021 12:01:08 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-Oct-2021 12:01:08 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[20-Oct-2021 11:57:03 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[20-Oct-2021 11:57:03 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[20-Oct-2021 11:57:03 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[20-Oct-2021 11:57:03 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[21-Oct-2021 09:55:06 Asia/Singapore] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[21-Oct-2021 09:55:06 Asia/Singapore] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=10613 in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[21-Oct-2021 09:55:06 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[21-Oct-2021 09:55:06 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[21-Oct-2021 09:55:06 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[21-Oct-2021 09:55:06 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[06-Dec-2021 12:01:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[06-Dec-2021 12:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[06-Dec-2021 12:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[06-Dec-2021 12:01:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[11-Dec-2021 21:01:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[11-Dec-2021 21:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[11-Dec-2021 21:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[11-Dec-2021 21:01:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[13-Dec-2021 21:01:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[13-Dec-2021 21:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[13-Dec-2021 21:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[13-Dec-2021 21:01:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[15-Dec-2021 00:00:30 Asia/Singapore] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[15-Dec-2021 00:00:30 Asia/Singapore] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=21000 in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[15-Dec-2021 00:00:30 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[15-Dec-2021 00:00:30 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[15-Dec-2021 00:00:30 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[15-Dec-2021 00:00:30 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Dec-2021 21:01:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[17-Dec-2021 21:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Dec-2021 21:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Dec-2021 21:01:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-Dec-2021 12:00:34 Asia/Singapore] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[18-Dec-2021 12:00:34 Asia/Singapore] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=10300 in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[18-Dec-2021 12:00:34 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[18-Dec-2021 12:00:34 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-Dec-2021 12:00:34 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-Dec-2021 12:00:34 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-Dec-2021 12:01:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[18-Dec-2021 12:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-Dec-2021 12:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-Dec-2021 12:01:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[19-Dec-2021 21:01:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[19-Dec-2021 21:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[19-Dec-2021 21:01:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[19-Dec-2021 21:01:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[20-Dec-2021 00:01:29 Asia/Singapore] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[20-Dec-2021 00:01:29 Asia/Singapore] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=22774 in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[20-Dec-2021 00:01:29 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[20-Dec-2021 00:01:29 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[20-Dec-2021 00:01:29 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[20-Dec-2021 00:01:29 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[20-Dec-2021 14:38:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[20-Dec-2021 14:38:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[20-Dec-2021 14:38:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[20-Dec-2021 14:38:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[21-Dec-2021 21:02:26 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[21-Dec-2021 21:02:27 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[21-Dec-2021 21:02:27 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[21-Dec-2021 21:02:27 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[22-Dec-2021 21:01:41 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[22-Dec-2021 21:01:41 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[22-Dec-2021 21:01:41 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[22-Dec-2021 21:01:41 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[22-Dec-2021 21:02:01 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[22-Dec-2021 21:02:01 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[22-Dec-2021 21:02:01 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[22-Dec-2021 21:02:01 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Dec-2021 00:02:03 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Resource temporarily unavailable in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[25-Dec-2021 00:02:03 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Dec-2021 00:02:03 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Dec-2021 00:02:03 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Dec-2021 10:45:03 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[25-Dec-2021 10:45:03 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Dec-2021 10:45:03 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Dec-2021 10:45:03 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Dec-2021 14:00:03 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[25-Dec-2021 14:00:03 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Dec-2021 14:00:03 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Dec-2021 14:00:03 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Dec-2021 14:51:04 Asia/Singapore] PHP Warning:  mysqli::__construct(): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[25-Dec-2021 14:51:04 Asia/Singapore] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=15437 in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[25-Dec-2021 14:51:04 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[25-Dec-2021 14:51:04 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Dec-2021 14:51:04 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Dec-2021 14:51:04 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[21-Jan-2022 02:33:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[21-Jan-2022 02:33:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[21-Jan-2022 02:33:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[21-Jan-2022 02:33:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[23-Feb-2022 01:36:22 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[23-Feb-2022 01:36:22 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[23-Feb-2022 01:36:22 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[23-Feb-2022 01:36:22 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-May-2022 01:53:22 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[18-May-2022 01:53:22 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-May-2022 01:53:22 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-May-2022 01:53:22 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-May-2022 01:54:21 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[18-May-2022 01:54:21 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-May-2022 01:54:21 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[18-May-2022 01:54:21 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[07-Oct-2022 20:39:11 UTC] PHP Warning:  unlink(/home/coolones/public_html/system/storage/cache/cache.currency.1665174621): No such file or directory in /home/coolones/public_html/system/library/cache/file.php on line 17
+[31-Oct-2022 13:30:47 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[31-Oct-2022 13:30:47 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[31-Oct-2022 13:30:47 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[31-Oct-2022 13:30:47 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[01-Nov-2022 07:25:04 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[01-Nov-2022 07:25:04 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[01-Nov-2022 07:25:04 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[01-Nov-2022 07:25:04 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[01-Nov-2022 07:25:06 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[01-Nov-2022 07:25:06 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[01-Nov-2022 07:25:06 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[01-Nov-2022 07:25:06 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[01-Nov-2022 09:25:03 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[01-Nov-2022 09:25:03 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[01-Nov-2022 09:25:03 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[01-Nov-2022 09:25:03 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[01-Nov-2022 09:25:05 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[01-Nov-2022 09:25:05 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[01-Nov-2022 09:25:05 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[01-Nov-2022 09:25:05 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[01-Nov-2022 13:26:28 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[01-Nov-2022 13:26:28 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[01-Nov-2022 13:26:28 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[01-Nov-2022 13:26:28 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:55:01 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Nov-2022 06:55:01 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:55:01 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:55:01 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:55:38 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Nov-2022 06:55:38 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:55:38 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:55:38 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:55:40 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Nov-2022 06:55:40 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:55:40 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:55:40 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:56:13 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Nov-2022 06:56:13 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:56:13 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:56:13 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:57:02 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Nov-2022 06:57:02 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:57:02 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:57:02 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:58:24 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Nov-2022 06:58:24 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:58:24 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 06:58:24 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:00:21 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Nov-2022 07:00:21 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:00:21 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:00:21 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:01:58 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Nov-2022 07:01:58 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:01:58 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:01:58 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:01 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Nov-2022 07:02:01 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:01 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:01 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:24 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Nov-2022 07:02:24 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:24 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:24 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:27 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Nov-2022 07:02:27 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:27 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:27 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:37 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Nov-2022 07:02:37 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:37 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:37 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:47 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Nov-2022 07:02:47 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:47 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:47 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:51 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Nov-2022 07:02:51 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:51 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:02:51 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:03:01 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Nov-2022 07:03:01 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:03:01 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Nov-2022 07:03:01 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[14-Nov-2022 06:50:21 UTC] PHP Warning:  unlink(/home/coolones/public_html/system/storage/cache/cache.currency.1668408021): No such file or directory in /home/coolones/public_html/system/library/cache/file.php on line 17
+[05-Dec-2022 13:25:53 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[05-Dec-2022 13:25:53 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[05-Dec-2022 13:25:53 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[05-Dec-2022 13:25:53 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Jan-2023 13:25:47 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[08-Jan-2023 13:25:47 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Jan-2023 13:25:47 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[08-Jan-2023 13:25:47 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[25-Jan-2023 01:15:43 UTC] PHP Warning:  unlink(/home/coolones/public_html/system/storage/cache/cache.currency.1674609020): No such file or directory in /home/coolones/public_html/system/library/cache/file.php on line 17
+[26-Feb-2023 13:25:51 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[26-Feb-2023 13:25:51 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Feb-2023 13:25:51 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Feb-2023 13:25:51 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Feb-2023 13:25:51 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[26-Feb-2023 13:25:51 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Feb-2023 13:25:51 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Feb-2023 13:25:51 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Feb-2023 13:25:51 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[26-Feb-2023 13:25:51 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Feb-2023 13:25:51 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[26-Feb-2023 13:25:51 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Feb-2023 17:31:19 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:19 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:19 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[27-Feb-2023 17:31:20 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[16-Mar-2023 08:34:31 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''http://www.cooloneservice.com/index.php?route=product/manufacturer/info&manufac' at line 2<br />Error No: 1064<br />INSERT INTO `coolone_visitor_log` (`visitor_id`, `route`) 
+            VALUES('42870', 'http://www.cooloneservice.com/index.php?route=product/manufacturer/info&manufacturer_id='')
+         in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('INSERT INTO `co...', Array)
+#1 /home/coolones/public_html/catalog/model/common/analytics.php(43): DB->query('INSERT INTO `co...')
+#2 /home/coolones/public_html/catalog/model/common/analytics.php(5): ModelCommonAnalytics->insertVisitorLog(42870, 'http://www.cool...')
+#3 /home/coolones/public_html/system/storage/modification/system/engine/loader.php(184): ModelCommonAnalytics->trackVisitor('http://www.coo in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[16-Mar-2023 08:34:32 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''http://www.cooloneservice.com/index.php?route=product/product&path=4_16&product' at line 2<br />Error No: 1064<br />INSERT INTO `coolone_visitor_log` (`visitor_id`, `route`) 
+            VALUES('42871', 'http://www.cooloneservice.com/index.php?route=product/product&path=4_16&product_id=431'')
+         in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('INSERT INTO `co...', Array)
+#1 /home/coolones/public_html/catalog/model/common/analytics.php(43): DB->query('INSERT INTO `co...')
+#2 /home/coolones/public_html/catalog/model/common/analytics.php(5): ModelCommonAnalytics->insertVisitorLog(42871, 'http://www.cool...')
+#3 /home/coolones/public_html/system/storage/modification/system/engine/loader.php(184): ModelCommonAnalytics->trackVisitor('http://www.cool. in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[16-Mar-2023 08:34:33 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''http://www.cooloneservice.com/index.php?route=product/search&tag='')' at line 2<br />Error No: 1064<br />INSERT INTO `coolone_visitor_log` (`visitor_id`, `route`) 
+            VALUES('42872', 'http://www.cooloneservice.com/index.php?route=product/search&tag='')
+         in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('INSERT INTO `co...', Array)
+#1 /home/coolones/public_html/catalog/model/common/analytics.php(43): DB->query('INSERT INTO `co...')
+#2 /home/coolones/public_html/catalog/model/common/analytics.php(5): ModelCommonAnalytics->insertVisitorLog(42872, 'http://www.cool...')
+#3 /home/coolones/public_html/system/storage/modification/system/engine/loader.php(184): ModelCommonAnalytics->trackVisitor('http://www.cool...', 0)
+#4 /home/coolones/public in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[16-Mar-2023 08:34:35 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''http://www.cooloneservice.com/'')' at line 2<br />Error No: 1064<br />INSERT INTO `coolone_visitor_log` (`visitor_id`, `route`) 
+            VALUES('42873', 'http://www.cooloneservice.com/'')
+         in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('INSERT INTO `co...', Array)
+#1 /home/coolones/public_html/catalog/model/common/analytics.php(43): DB->query('INSERT INTO `co...')
+#2 /home/coolones/public_html/catalog/model/common/analytics.php(5): ModelCommonAnalytics->insertVisitorLog(42873, 'http://www.cool...')
+#3 /home/coolones/public_html/system/storage/modification/system/engine/loader.php(184): ModelCommonAnalytics->trackVisitor('http://www.cool...', 0)
+#4 /home/coolones/public_html/system/engine/proxy.php(25): Loader->{closure}(Array, Array)
+#5  in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[16-Mar-2023 08:34:36 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''http://www.cooloneservice.com/index.php?route=information/contact&enquiry='')' at line 2<br />Error No: 1064<br />INSERT INTO `coolone_visitor_log` (`visitor_id`, `route`) 
+            VALUES('42874', 'http://www.cooloneservice.com/index.php?route=information/contact&enquiry='')
+         in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('INSERT INTO `co...', Array)
+#1 /home/coolones/public_html/catalog/model/common/analytics.php(43): DB->query('INSERT INTO `co...')
+#2 /home/coolones/public_html/catalog/model/common/analytics.php(5): ModelCommonAnalytics->insertVisitorLog(42874, 'http://www.cool...')
+#3 /home/coolones/public_html/system/storage/modification/system/engine/loader.php(184): ModelCommonAnalytics->trackVisitor('http://www.cool...', 0)
+#4 /ho in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[16-Mar-2023 08:34:37 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''http://www.cooloneservice.com/index.php?route=journal3/product&product_id='')' at line 2<br />Error No: 1064<br />INSERT INTO `coolone_visitor_log` (`visitor_id`, `route`) 
+            VALUES('42875', 'http://www.cooloneservice.com/index.php?route=journal3/product&product_id='')
+         in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('INSERT INTO `co...', Array)
+#1 /home/coolones/public_html/catalog/model/common/analytics.php(43): DB->query('INSERT INTO `co...')
+#2 /home/coolones/public_html/catalog/model/common/analytics.php(5): ModelCommonAnalytics->insertVisitorLog(42875, 'http://www.cool...')
+#3 /home/coolones/public_html/system/storage/modification/system/engine/loader.php(184): ModelCommonAnalytics->trackVisitor('http://www.cool...', 0)
+#4 /ho in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[16-Mar-2023 08:34:38 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''http://www.cooloneservice.com/index.php?route=pavblog/blog&blog_id=160'')' at line 2<br />Error No: 1064<br />INSERT INTO `coolone_visitor_log` (`visitor_id`, `route`) 
+            VALUES('42876', 'http://www.cooloneservice.com/index.php?route=pavblog/blog&blog_id=160'')
+         in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('INSERT INTO `co...', Array)
+#1 /home/coolones/public_html/catalog/model/common/analytics.php(43): DB->query('INSERT INTO `co...')
+#2 /home/coolones/public_html/catalog/model/common/analytics.php(5): ModelCommonAnalytics->insertVisitorLog(42876, 'http://www.cool...')
+#3 /home/coolones/public_html/system/storage/modification/system/engine/loader.php(184): ModelCommonAnalytics->trackVisitor('http://www.cool...', 0)
+#4 /home/coolo in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[16-Mar-2023 08:34:39 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''http://www.cooloneservice.com/index.php?route=product/blog_list&blogger_id=11''' at line 2<br />Error No: 1064<br />INSERT INTO `coolone_visitor_log` (`visitor_id`, `route`) 
+            VALUES('42877', 'http://www.cooloneservice.com/index.php?route=product/blog_list&blogger_id=11'')
+         in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('INSERT INTO `co...', Array)
+#1 /home/coolones/public_html/catalog/model/common/analytics.php(43): DB->query('INSERT INTO `co...')
+#2 /home/coolones/public_html/catalog/model/common/analytics.php(5): ModelCommonAnalytics->insertVisitorLog(42877, 'http://www.cool...')
+#3 /home/coolones/public_html/system/storage/modification/system/engine/loader.php(184): ModelCommonAnalytics->trackVisitor('http://www.cool...', 0)
+# in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[16-Mar-2023 08:34:41 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''http://www.cooloneservice.com/index.php?route=blog/blog&blog_id=140'')' at line 2<br />Error No: 1064<br />INSERT INTO `coolone_visitor_log` (`visitor_id`, `route`) 
+            VALUES('42878', 'http://www.cooloneservice.com/index.php?route=blog/blog&blog_id=140'')
+         in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('INSERT INTO `co...', Array)
+#1 /home/coolones/public_html/catalog/model/common/analytics.php(43): DB->query('INSERT INTO `co...')
+#2 /home/coolones/public_html/catalog/model/common/analytics.php(5): ModelCommonAnalytics->insertVisitorLog(42878, 'http://www.cool...')
+#3 /home/coolones/public_html/system/storage/modification/system/engine/loader.php(184): ModelCommonAnalytics->trackVisitor('http://www.cool...', 0)
+#4 /home/coolones/pu in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[29-Mar-2023 19:52:11 UTC] PHP Warning:  unlink(/home/coolones/public_html/system/storage/cache/cache.language.1680119420): No such file or directory in /home/coolones/public_html/system/library/cache/file.php on line 17
+[29-Mar-2023 19:52:11 UTC] PHP Warning:  unlink(/home/coolones/public_html/system/storage/cache/cache.currency.1680123131): No such file or directory in /home/coolones/public_html/system/library/cache/file.php on line 68
+[30-Mar-2023 13:30:21 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[30-Mar-2023 13:30:21 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Mar-2023 13:30:21 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Mar-2023 13:30:21 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[03-Apr-2023 14:40:11 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[03-Apr-2023 14:40:11 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[03-Apr-2023 14:40:12 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[03-Apr-2023 14:40:12 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[03-Apr-2023 14:40:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[03-Apr-2023 14:40:12 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[03-Apr-2023 14:40:12 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[03-Apr-2023 14:40:12 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[03-Apr-2023 14:40:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[03-Apr-2023 14:40:12 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[03-Apr-2023 14:40:12 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[03-Apr-2023 14:40:12 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[03-Apr-2023 14:40:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[03-Apr-2023 14:40:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[03-Apr-2023 14:40:12 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[03-Apr-2023 14:40:12 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[03-Apr-2023 14:40:12 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[03-Apr-2023 14:40:12 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[03-Apr-2023 14:40:12 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[03-Apr-2023 14:40:12 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Apr-2023 13:07:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[17-Apr-2023 13:07:46 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Apr-2023 13:07:46 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Apr-2023 13:07:46 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Apr-2023 13:07:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[17-Apr-2023 13:07:46 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Apr-2023 13:07:46 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Apr-2023 13:07:46 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Apr-2023 13:07:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[17-Apr-2023 13:07:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[17-Apr-2023 13:07:46 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Apr-2023 13:07:46 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Apr-2023 13:07:46 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Apr-2023 13:07:46 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Apr-2023 13:07:46 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Apr-2023 13:07:46 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Apr-2023 13:07:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/1203): User coolones_db already has more than 'max_user_connections' active connections in /home/coolones/public_html/system/library/db/mysqli.php on line 7
+[17-Apr-2023 13:07:46 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Apr-2023 13:07:46 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[17-Apr-2023 13:07:46 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/coolones/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#1 /home/coolones/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'coolones_db', 'A=izQ2@.R7f%', 'coolones_db', '3306')
+#2 /home/coolones/public_html/system/startup.php(132): require_once('/home/coolones/...')
+#3 /home/coolones/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/coolones/public_html/system/library/db/mysqli.php on line 10
+[30-Aug-2023 22:00:20 UTC] PHP Warning:  unlink(/home/coolones/public_html/system/storage/cache/cache.currency.1693432221): No such file or directory in /home/coolones/public_html/system/library/cache/file.php on line 17
+[30-Aug-2023 22:00:20 UTC] PHP Warning:  unlink(/home/coolones/public_html/system/storage/cache/cache.currency.1693432221): No such file or directory in /home/coolones/public_html/system/library/cache/file.php on line 17
+[07-Sep-2023 06:59:45 UTC] PHP Warning:  unlink(/home/coolones/public_html/system/storage/cache/cache.currency.1694069421): No such file or directory in /home/coolones/public_html/system/library/cache/file.php on line 17
+[09-Sep-2023 13:01:51 UTC] PHP Warning:  unlink(/home/coolones/public_html/system/storage/cache/cache.currency.1694264436): No such file or directory in /home/coolones/public_html/system/library/cache/file.php on line 17
+[15-Sep-2023 16:24:24 UTC] PHP Warning:  unlink(/home/coolones/public_html/system/storage/cache/cache.language.1694794990): No such file or directory in /home/coolones/public_html/system/library/cache/file.php on line 17
+[21-Sep-2023 04:07:55 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''http://www.cooloneservice.com/index.php?route=product/manufacturer/info&manufac' at line 2<br />Error No: 1064<br />INSERT INTO `coolone_visitor_log` (`visitor_id`, `route`) 
+            VALUES('54070', 'http://www.cooloneservice.com/index.php?route=product/manufacturer/info&manufacturer_id=100'')
+         in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('INSERT INTO `co...', Array)
+#1 /home/coolones/public_html/catalog/model/common/analytics.php(43): DB->query('INSERT INTO `co...')
+#2 /home/coolones/public_html/catalog/model/common/analytics.php(5): ModelCommonAnalytics->insertVisitorLog(54070, 'http://www.cool...')
+#3 /home/coolones/public_html/system/storage/modification/system/engine/loader.php(184): ModelCommonAnalytics->trackVisitor('http://www. in /home/coolones/public_html/system/library/db/mysqli.php on line 40
+[22-Sep-2023 02:49:08 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''http://www.cooloneservice.com/index.php?route=product/product&product_id=802'')' at line 2<br />Error No: 1064<br />INSERT INTO `coolone_visitor_log` (`visitor_id`, `route`) 
+            VALUES('54147', 'http://www.cooloneservice.com/index.php?route=product/product&product_id=802'')
+         in /home/coolones/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/coolones/public_html/system/library/db.php(16): DB\MySQLi->query('INSERT INTO `co...', Array)
+#1 /home/coolones/public_html/catalog/model/common/analytics.php(43): DB->query('INSERT INTO `co...')
+#2 /home/coolones/public_html/catalog/model/common/analytics.php(5): ModelCommonAnalytics->insertVisitorLog(54147, 'http://www.cool...')
+#3 /home/coolones/public_html/system/storage/modification/system/engine/loader.php(184): ModelCommonAnalytics->trackVisitor('http://www.cool...', 0)
+#4 in /home/coolones/public_html/system/library/db/mysqli.php on line 40

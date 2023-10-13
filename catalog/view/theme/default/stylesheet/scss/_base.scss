@@ -1,0 +1,170 @@
+// * {
+//   border: 1px solid #f00 !important;
+// }
+
+$cblue: #41a3c6;
+$cazure: #f4feff;
+$caliceblue: #ecf7f9;
+$cblack: #000000;
+$cwhite: #fff;
+$cwhitesmoke: #eeeeee;
+$ctext: #181818;
+$cgray: #acacac;
+$cgray2: #ccc;
+$cred: #ba1212;
+$clavender: #ebebeb;
+
+@mixin flexPosition($jusCont: center, $alignIte: center) {
+  display: flex;
+  justify-content: $jusCont;
+  align-items: $alignIte;
+}
+
+@mixin fullSpace {
+  width: 100%;
+  height: 100%;
+}
+
+@mixin response-max($breakpoint) {
+  @if ($breakpoint == 1920) {
+    @media (max-width: 1920px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 1600) {
+    @media (max-width: 1600px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 1440) {
+    @media (max-width: 1440px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 1024) {
+    @media (max-width: 1024px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 768) {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 540) {
+    @media (max-width: 540px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 425) {
+    @media (max-width: 425px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 375) {
+    @media (max-width: 375px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 320) {
+    @media (max-width: 320px) {
+      @content;
+    }
+  }
+}
+
+@mixin response-min($breakpoint) {
+  @if ($breakpoint == 1920) {
+    @media (min-width: 1920px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 1600) {
+    @media (min-width: 1600px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 1440) {
+    @media (min-width: 1440px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 1024) {
+    @media (min-width: 1024px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 768) {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 540) {
+    @media (min-width: 540px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 425) {
+    @media (min-width: 425px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 375) {
+    @media (min-width: 375px) {
+      @content;
+    }
+  }
+
+  @if ($breakpoint == 320) {
+    @media (min-width: 320px) {
+      @content;
+    }
+  }
+}
+
+html {
+  font-size: 62.5%;
+
+  @include response-max(1024) {
+    font-size: 56.25%;
+  }
+
+  @include response-max(768) {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: Arial;
+  color: $ctext;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial;
+}
+
+.container {
+  @media (min-width: 1200px) {
+    width: 90%;
+  }
+}
